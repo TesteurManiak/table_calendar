@@ -265,6 +265,8 @@ class _TableCalendarBaseState extends State<TableCalendarBase> {
               },
               dowBuilder: widget.dowBuilder,
               dayBuilder: widget.dayBuilder,
+              onlyWeekdays: widget.onlyWeekdays,
+              weekendDays: widget.weekendDays,
             ),
           ),
         );
